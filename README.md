@@ -22,7 +22,7 @@ Convert Html-Code to Pdf-Documents
 
 ## Usage
 Create new instance of `PdfDocument` and set the `Html`-Property.
-
+Then call the static method `ConvertHtmlToPdf` of the `PdfConvert`-Class
 ```CS
 var html = "<html><body><p>Hello world</p></body></html>";
 
